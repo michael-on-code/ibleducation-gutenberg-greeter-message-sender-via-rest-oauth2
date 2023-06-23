@@ -26,6 +26,7 @@ const CLIENT_SECRET = 'michaeloncode'
 * Run on your terminal on the current plugin folder :
 
 ```bash
+$ npm install
 $ npm run build
 ```
 
