@@ -41,7 +41,7 @@ Usage
     "ibleducation"
 }
 ```
-* You should be able to identify the new Gutenberg Block and any message you type in the block would be sent as a request to your REST API Endpoint using this request body format (example) :
+* You should be able to identify the new Gutenberg Block and any message you type in the block would be sent as a request to your OAuth2 based REST API Endpoint using this request body format (example) :
 ```bash
 {
     "greeting":"Hello World!"
