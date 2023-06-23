@@ -18,7 +18,7 @@ Installation
 * Edit the variables in crud.js (located at src >> crud.js) accordingly :
 ```bash
 const LOGIN_ENDPOINT_URL = 'https://ibleducation-instance1.local/wp-json/greetingbot/v1/login'
-const SEND_GREETINGS_ENDPOINT_URL = 'https://ibleducation-instance1.local/wp-json/greetingbot/v1/send'
+const SEND_GREETING_ENDPOINT_URL = 'https://ibleducation-instance1.local/wp-json/greetingbot/v1/send'
 const GRANT_TYPE = 'client_credentials'
 const CLIENT_ID = 'michaeloncode'
 const CLIENT_SECRET = 'michaeloncode'
