@@ -14,18 +14,16 @@ Requirements
 Installation
 ------------
 
-* Clone/Insert these files in the WordPress Installation Plugin Folder in a folder (and name/rename it maybe ibl-gutenberg-greeter)
-* Edit the variables in crud.js (located at src >> crud.js) accordingly. Preview :
+* Clone/Insert these files in the WordPress Installation Plugin Directory in a folder (and name/rename it maybe ibl-gutenberg-greeter)
+* Edit the variables in crud.js (located at src >> crud.js) accordingly :
 ```bash
-{
-    const LOGIN_ENDPOINT_URL = 'https://ibleducation-instance1.local/wp-json/greetingbot/v1/login'
+const LOGIN_ENDPOINT_URL = 'https://ibleducation-instance1.local/wp-json/greetingbot/v1/login'
 const SEND_GREETINGS_ENDPOINT_URL = 'https://ibleducation-instance1.local/wp-json/greetingbot/v1/send'
 const GRANT_TYPE = 'client_credentials'
 const CLIENT_ID = 'michaeloncode'
 const CLIENT_SECRET = 'michaeloncode'
-}
 ```
-* Run on your terminal on the current plugin folder
+* Run on your terminal on the current plugin folder :
 
 ```bash
 $ npm run build
@@ -43,7 +41,12 @@ Usage
     "ibleducation"
 }
 ```
-* You should be able to identify the new Gutenberg Block and any message you type in the block would be sent as a request to your REST API Endpoint.
+* You should be able to identify the new Gutenberg Block and any message you type in the block would be sent as a request to your REST API Endpoint using this request body format (example) :
+```bash
+{
+    "greeting":"Hello World!"
+}
+```
 
 Enjoy !
 
