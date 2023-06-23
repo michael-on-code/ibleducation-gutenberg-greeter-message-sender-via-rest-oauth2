@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ibl-gutenberg-greeter/ibl-gutenberg-greeter",
+  "version": "0.1.0",
+  "title": "IBL Education Gutenberg Greeter",
+  "category": "widgets",
+  "icon": "superhero-alt",
+  "description": "IBL Education Gutenberg Greeter",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ibl-gutenberg-greeter",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "keywords": [
+    "greeting",
+    "ibleducation"
+  ],
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    }
+  }
+}
