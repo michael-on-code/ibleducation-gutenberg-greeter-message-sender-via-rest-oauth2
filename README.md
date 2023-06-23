@@ -1,4 +1,4 @@
-WP Simple Gutenberg Block Greeting Plugin Sending Input Message to any OAuth2 Layered based REST API
+WP Simple Gutenberg Block Greeting Plugin Sending Input Message to any OAuth2 Layer based REST API
 ========================
 
 A simple wordpress gutenberg input block plugin that allows to send the message typed to any REST API with a OAuth2 Layer
